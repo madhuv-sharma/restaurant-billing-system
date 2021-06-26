@@ -71,7 +71,6 @@ class dish
 
 main()
 {
-	clrscr();
 	int ch;
 	int dscd[8],dp[8];
 	cust cm;
