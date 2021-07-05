@@ -2,6 +2,8 @@
 #include<conio.h>
 #include<fstream.h>
 #include<string.h>
+
+
 class cust
 {
 	private:
@@ -41,6 +43,7 @@ class cust
 			cout<<"Total Bill : "<<ba<<endl;
 		}
 };
+
 
 class dish
 {
