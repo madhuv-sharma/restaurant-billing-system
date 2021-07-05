@@ -15,6 +15,7 @@ class cust
 		int dc[8];
 		int dp[8];
 		int ba;
+	
 	public:
 		void get(int *c,int *p)
 		{
@@ -29,6 +30,7 @@ class cust
 				dp[i]=*p;
 			}
 		}
+
 		void show()
 		{
 			cout<<bn<<"\t"<<bd<<"\t"<<cn<<"\t"<<ca<<"\t"<<endl;
@@ -51,6 +53,7 @@ class dish
 		int dc;
 		char dn[20];
 		int dp;
+
 	public:
 		void get()
 		{
@@ -58,19 +61,23 @@ class dish
 			cout<<"Enter Dish Name:";cin>>dn;
 			cout<<"Enter Dish Price:";cin>>dp;
 		}
+
 		void show()
 		{
 			cout<<dc<<"\t\t"<<dn<<endl;
 		}
+		
 		int dishcode()
 		{
 			return dc;
 		}
+		
 		int dpr()
 		{
 			return dp;
 		}
 };
+
 
 main()
 {
